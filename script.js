@@ -782,8 +782,8 @@ const checkCompVvod = (playerCityWord, allCities, compCityIndex) => {
   );
 
   for (let i = 0; i < allCities.length; i++) {
-    console.log(`2 start- ${allCities[i].slice(0, 1)}`);
-    alert(`FOR start and i= ${i}`);
+    console.log(`2 start- ${allCities[i].slice(0, 1)}`); //-----------
+    //  alert(`FOR start and i= ${i}`); //-----------
     if (allCities[i].slice(0, 1) === playerCityWord.toUpperCase()) {
       return i;
     }
