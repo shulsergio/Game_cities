@@ -783,13 +783,13 @@ const checkCompVvod = (playerCityWord, allCities, compCityIndex) => {
   //-- ПРОБУЮ!!!!!!!!!!!!!
   // $.each(allCities, function());
 
-  /* for (let i = 0; i < allCities.length; i++) {
+  for (let i = 0; i < allCities.length; i++) {
     console.log(`2 start- ${allCities[i].slice(0, 1)}`); //----------- for check
     //  alert(`FOR start and i= ${i}`); //----------- for check
     if (allCities[i].slice(0, 1) === playerCityWord.toUpperCase()) {
       return i;
     }
-  }*/
+  }
 };
 //-----------
 console.log("111");
